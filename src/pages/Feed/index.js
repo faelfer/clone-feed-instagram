@@ -57,7 +57,7 @@ export default function App() {
 				onRefresh={refreshList}
 				refreshing={refreshing}
 				onViewableItemsChanged={handleViewableChanged}
-				viewabilityConfig={{ viewAreaConveragePercentThreshold: 20 }}
+				viewabilityConfig={{ viewAreaCoveragePercentThreshold: 20 }}
 				ListFooterComponent={loading && <Loading />}
 				renderItem={({ item }) => (
 					<Post>
